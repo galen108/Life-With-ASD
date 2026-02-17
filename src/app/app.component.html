@@ -1,5 +1,14 @@
-<mat-tab-group>
-  <mat-tab label="Experience Summary" routerLink="/experience-summary" routerLinkActive="activebutton" ariaCurrentWhenActive="page"></mat-tab>
-  <mat-tab label="Life Areas" routerLink="/life-areas" routerLinkActive="activebutton" ariaCurrentWhenActive="page"></mat-tab>
-</mat-tab-group>
-
+<nav mat-tab-nav-bar [tabPanel]="tabPanel">
+  @for (link of links; track link) {
+    <a mat-tab-link
+       (click)="activeLink = link"
+       [active]="activeLink == link"> {{link}} </a>
+  }
+  <a mat-tab-link disabled>Disabled Link</a>
+  </nav>
+<mat-tab-nav-panel #tabPanel>
+  <router-outlet>
+    <a label="Experience Summary" routerLink="/experience-summary" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Experience Summary</a>
+    <a label="Life Areas" routerLink="/life-areas" routerLinkActive="activebutton" ariaCurrentWhenActive="page">Life Areas></a>
+  </router-outlet>
+</mat-tab-nav-panel>

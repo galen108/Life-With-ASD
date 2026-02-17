@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { MatTabGroup, MatTab } from '@angular/material/tabs'
+import { MatTabNav, MatTabLink, MatTabNavPanel } from "@angular/material/tabs";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, MatTabGroup, MatTab],
+  imports: [RouterOutlet, MatTabNav, MatTabLink, MatTabNavPanel],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
