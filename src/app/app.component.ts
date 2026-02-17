@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
 import { MatCard, MatCardHeader, MatCardContent } from '@angular/material/card';
 import { MatTabGroup, MatTab, MatTabNav, MatTabLink, MatTabNavPanel } from '@angular/material/tabs';
@@ -22,6 +22,7 @@ import { LifeAreasComponent } from './life-areas/life-areas.component';
               RouterOutlet,
               ExperienceSummaryComponent,
               LifeAreasComponent],
+  encapsulation: ViewEncapsulation.None,
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
