@@ -10,10 +10,10 @@
   font-weight: bolder;
 }
 
-.mat-card {
-  margin: auto !important;
-  background-color: antiquewhite !important;
-}
+/*.mat-card {*/
+/*  margin: auto !important;*/
+/*  background-color: antiquewhite !important;*/
+/*}*/
 
 .mat-card-header {
   margin: auto !important;
@@ -24,21 +24,20 @@
   font-weight: bolder;
 }
 
-.mat-card-content {
-  margin: auto !important;
-  background-color: linen !important;
-}
+/*.mat-card-content {*/
+/*  margin: auto !important;*/
+/*  background-color: linen !important;*/
+/*}*/
 
-.mat-expansion-panel {
-  margin: auto !important;
-  background-color: linen !important;
-}
+/*.mat-expansion-panel {*/
+/*  margin: auto !important;*/
+/*  background-color: linen !important;*/
+/*}*/
 
-
-.mat-expansion-panel-heading {
-  margin: auto !important;
-  background-color: linen !important;
-}
+/*.mat-expansion-panel-heading {*/
+/*  margin: auto !important;*/
+/*  background-color: linen !important;*/
+/*}*/
 
 .mat-panel-title {
   margin: auto !important;
