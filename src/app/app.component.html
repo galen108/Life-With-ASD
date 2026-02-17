@@ -1,18 +1,18 @@
 <main class="main">
   <div class="content">
     <nav mat-tab-nav-bar [tabPanel]="tabPanel">
-    @for (link of links; track link) {
-      <a mat-tab-link
-         (click)="activeLink = link"
-         [active]="activeLink == link"> {{link}} </a>
-    }
-    <a mat-tab-link disabled>Disabled Link</a>
+      @for (link of links; track link) {
+        <a mat-tab-link
+           (click)="activeLink = link"
+           [active]="activeLink == link"> {{link}} </a>
+      }
+      <a mat-tab-link disabled>Disabled Link</a>
+      <mat-tab-nav-panel #tabPanel>
+        <router-outlet>
+          <a activeLink="/experience-summary">Experience Summary</a>
+          <a activeLink="/life-areas">Life Areas</a>
+        </router-outlet>
+      </mat-tab-nav-panel>
     </nav>
-    <mat-tab-nav-panel #tabPanel>
-      <router-outlet>
-        <a activeLink="/experience-summary">Experience Summary</a>
-        <a activeLink="/life-areas">Life Areas</a>
-      </router-outlet>
-    </mat-tab-nav-panel>
   </div>
 </main>
