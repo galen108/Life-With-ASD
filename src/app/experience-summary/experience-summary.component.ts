@@ -6,7 +6,10 @@ import { RouterLink } from "@angular/router";
 @Component({
   selector: 'experience-summary',
   standalone: true,
-  imports: [MatCard, MatCardHeader, MatCardContent, RouterLink],
+  imports: [ MatCard,
+            MatCardHeader,
+            MatCardContent,
+            RouterLink ],
   encapsulation: ViewEncapsulation.None,
   templateUrl: './experience-summary.component.html',
   styleUrl: './experience-summary.component.css'
