@@ -1,49 +1,23 @@
-/* You can add global styles to this file, and also import other style files */
-
-/* Target individual tabs */
 .mat-mdc-tab.mdc-tab {
   margin: auto !important;
-  background-color: antiquewhite !important;
+  background-color: linen !important;
   font-family: Menlo !important;
-  font-color: navy !important;
   font-size: xxx-large !important;
   font-weight: bolder;
 }
-
-/*.mat-card {*/
-/*  margin: auto !important;*/
-/*  background-color: antiquewhite !important;*/
-/*}*/
 
 .mat-card-header {
   margin: auto !important;
   background-color: antiquewhite !important;
   font-family: Menlo !important;
-  font-color: navy !important;
   font-size: xxx-large !important;
   font-weight: bolder;
 }
 
-/*.mat-card-content {*/
-/*  margin: auto !important;*/
-/*  background-color: linen !important;*/
-/*}*/
-
-/*.mat-expansion-panel {*/
-/*  margin: auto !important;*/
-/*  background-color: linen !important;*/
-/*}*/
-
-/*.mat-expansion-panel-heading {*/
-/*  margin: auto !important;*/
-/*  background-color: linen !important;*/
-/*}*/
-
 .mat-panel-title {
   margin: auto !important;
-  background-color: linen !important;
+  background-color: antiquewhite !important;
   font-family: Menlo !important;
-  font-color: navy !important;
   font-size: xx-large !important;
 }
 
@@ -53,9 +27,7 @@ html, body {
   height: 100%;
   width: 100%;
   margin: auto;
-  padding: inherit;
-  background-color: linen ;
+  background-color: antiquewhite;
   font-family: Menlo;
-  font-color: navy;
   font-size: x-large;
 }
