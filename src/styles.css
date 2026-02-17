@@ -1,4 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; margin: 0; }
-font { font-family: Menlo, sans-serif; font-size: 12pt; font-color: white; }
+/* Target the tab header container globally */
+.mat-mdc-tab-header {
+  background-color: transparent !important;
+}
+
+/* Target individual tabs */
+.mat-mdc-tab.mdc-tab {
+  background-color: white !important; /* Or whatever color you want */
+}
+
+html, body {
+  height: 100%; margin: 0; }
+
+font {
+  font-family: Menlo, sans-serif; font-size: medium; font-color: white; }
