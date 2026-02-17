@@ -1,19 +1,19 @@
 .mat-mdc-tab.mdc-tab {
   background-color: linen !important;
   font-family: Menlo !important;
-  font-size: xx-large !important;
+  font-size: x-large !important;
   font-weight: bolder;
 }
 
 .mat-card-header {
   font-family: Menlo !important;
-  font-size: xx-large !important;
+  font-size: x-large !important;
   font-weight: bolder;
 }
 
 .mat-panel-title {
   font-family: Menlo !important;
-  font-size: x-large !important;
+  font-size: large !important;
 }
 
 html, body {
@@ -21,5 +21,5 @@ html, body {
   margin: 0;
   background-color: antiquewhite;
   font-family: Menlo;
-  font-size: x-large;
+  font-size: large;
 }
