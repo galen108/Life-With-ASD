@@ -3,7 +3,7 @@ import { MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, Mat
 import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'app-specific-life-modules',
+  selector: 'life-areas',
   standalone: true,
   imports: [MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription, RouterLink],
   templateUrl: './life-areas.component.html',

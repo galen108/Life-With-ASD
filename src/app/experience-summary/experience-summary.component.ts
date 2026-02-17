@@ -3,7 +3,7 @@ import { MatCard, MatCardHeader, MatCardContent } from "@angular/material/card";
 import { RouterLink } from "@angular/router";
 
 @Component({
-  selector: 'app-experience-summary',
+  selector: 'experience-summary',
   standalone: true,
   imports: [MatCard, MatCardHeader, MatCardContent, RouterLink],
   templateUrl: './experience-summary.component.html',
