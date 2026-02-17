@@ -1,14 +1,18 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterLinkActive, RouterOutlet } from '@angular/router';
-import { MatTabGroup, MatTab, MatTabNav, MatTabLink, MatTabNavPanel } from "@angular/material/tabs";
-import { ExperienceSummaryComponent } from "./experience-summary/experience-summary.component";
-import { LifeAreasComponent } from "./life-areas/life-areas.component";
+import { MatCard, MatCardHeader, MatCardContent } from '@angular/material/card';
+import { MatTabGroup, MatTab, MatTabNav, MatTabLink, MatTabNavPanel } from '@angular/material/tabs';
+import { ExperienceSummaryComponent } from './experience-summary/experience-summary.component';
+import { LifeAreasComponent } from './life-areas/life-areas.component';
 
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [ MatTabGroup,
+  imports: [ MatCard,
+              MatCardHeader,
+              MatCardContent,
+              MatTabGroup,
               MatTab,
               MatTabNav,
               MatTabLink,

@@ -1,50 +1,14 @@
 <!-- Your Main Component's HTML -->
-<mat-tab-group>
-  <mat-tab label="Experience Summary">
-    <!-- Drop your first component here -->
-    <experience-summary></experience-summary>
-  </mat-tab>
-
-  <mat-tab label="Life Areas">
-    <!-- Drop your second component here -->
-    <life-areas></life-areas>
-  </mat-tab>
-</mat-tab-group>
-
-<!--<main class="main">
-  <div class="content">
-    <nav mat-tab-nav-bar [tabPanel]="tabPanel">
-      @for (link of links; track link) {
-        <a mat-tab-link
-           routerLink="/experience-summary"
-           routerLinkActive
-           #rla="routerLinkActive"
-           [active]="rla.isActive">
-          Experience Summary
-        </a>
-        <a mat-tab-link
-           routerLink="/life-areas"
-           routerLinkActive
-           #rla="routerLinkActive"
-           [active]="rla.isActive">
-          Life Areas
-        </a>
-      }
-      <a mat-tab-link disabled>Disabled Link</a>
-    </nav>
-    <mat-tab-nav-panel #tabPanel>
-      <router-outlet>
-        <a label="Experience Summary"
-           routerLink="/experience-summary"
-           routerLinkActive="activeButton"
-           ariaCurrentWhenActive="page">
-          Experience Summary</a>
-        <a label="Life Areas"
-           routerLink="/life-areas"
-           routerLinkActive="activeButton"
-           ariaCurrentWhenActive="page">
-          Life Areas</a>
-      </router-outlet>
-    </mat-tab-nav-panel>
-  </div>
-</main>-->
+<mat-card>
+  <mat-card-header>Life With ASD</mat-card-header>
+    <mat-card-content>
+      <mat-tab-group>
+        <mat-tab label="Experience Summary">
+          <experience-summary></experience-summary>
+        </mat-tab>
+        <mat-tab label="Life Areas">
+          <life-areas></life-areas>
+        </mat-tab>
+      </mat-tab-group>
+    </mat-card-content>
+</mat-card>

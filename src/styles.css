@@ -7,6 +7,7 @@
   font-family: Menlo !important;
   font-color: navy !important;
   font-size: xxx-large !important;
+  font-weight: bolder;
 }
 
 .mat-card {
@@ -20,6 +21,7 @@
   font-family: Menlo !important;
   font-color: navy !important;
   font-size: xxx-large !important;
+  font-weight: bolder;
 }
 
 .mat-card-content {

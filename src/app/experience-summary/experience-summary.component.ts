@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { MatCard, MatCardHeader, MatCardContent } from "@angular/material/card";
-import { RouterLink } from "@angular/router";
+import { MatCard, MatCardHeader, MatCardContent } from '@angular/material/card';
+import { RouterLink } from '@angular/router';
 
 
 @Component({

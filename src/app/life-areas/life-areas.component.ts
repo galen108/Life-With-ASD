@@ -1,7 +1,7 @@
 import { Component, ViewEncapsulation } from '@angular/core';
-import { MatCard, MatCardHeader, MatCardContent } from "@angular/material/card";
-import { MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription} from "@angular/material/expansion";
-import { RouterLink } from "@angular/router";
+import { MatCard, MatCardHeader, MatCardContent } from '@angular/material/card';
+import { MatExpansionPanel, MatExpansionPanelHeader, MatExpansionPanelTitle, MatExpansionPanelDescription} from '@angular/material/expansion';
+import { RouterLink } from '@angular/router';
 
 @Component({
   selector: 'life-areas',
