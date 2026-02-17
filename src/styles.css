@@ -2,8 +2,48 @@
 
 /* Target individual tabs */
 .mat-mdc-tab.mdc-tab {
-  background-color: white !important;
-  /* Or whatever color you want */
+  margin: auto !important;
+  background-color: antiquewhite !important;
+  font-family: Menlo !important;
+  font-color: navy !important;
+  font-size: xxx-large !important;
+}
+
+.mat-card {
+  margin: auto !important;
+  background-color: antiquewhite !important;
+}
+
+.mat-card-header {
+  margin: auto !important;
+  background-color: antiquewhite !important;
+  font-family: Menlo !important;
+  font-color: navy !important;
+  font-size: xxx-large !important;
+}
+
+.mat-card-content {
+  margin: auto !important;
+  background-color: linen !important;
+}
+
+.mat-expansion-panel {
+  margin: auto !important;
+  background-color: linen !important;
+}
+
+
+.mat-expansion-panel-heading {
+  margin: auto !important;
+  background-color: linen !important;
+}
+
+.mat-panel-title {
+  margin: auto !important;
+  background-color: linen !important;
+  font-family: Menlo !important;
+  font-color: navy !important;
+  font-size: xx-large !important;
 }
 
 html, body {
