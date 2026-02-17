@@ -1,15 +1,8 @@
 <router-outlet />
-
-<main class="main">
-  <div class="content">
-    <h1>Hello, {{ title }}</h1>
-      <mat-tab-group>
-        <mat-tab label="First"><a routerLink="/experience-summary" routerLinkActive="activebutton" ariaCurrentWhenActive="page">
-          Experience Summary</a></mat-tab>
-        <mat-tab label="First"><a routerLink="/life-areas" routerLinkActive="activebutton" ariaCurrentWhenActive="page">
-          Life Areas</a></mat-tab>
-      </mat-tab-group>
-  </div>
-</main>
-
+  <mat-tab-group>
+    <mat-tab label="First"><a routerLink="/experience-summary" routerLinkActive="activebutton" ariaCurrentWhenActive="page">
+      Experience Summary</a></mat-tab>
+    <mat-tab label="First"><a routerLink="/life-areas" routerLinkActive="activebutton" ariaCurrentWhenActive="page">
+      Life Areas</a></mat-tab>
+  </mat-tab-group>
 <router-outlet />
